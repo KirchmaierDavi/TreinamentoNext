@@ -2,13 +2,16 @@ import { HStack, Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <HStack>
-      <Stack>
+    <HStack as = "main">
+      
+
+      <Stack as = "section">
 
       </Stack>
-      <Stack>
+      <Stack as = "section">
         
       </Stack>
+
     </HStack>
   )
 }
